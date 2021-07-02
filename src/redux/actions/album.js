@@ -3,7 +3,7 @@ import http from "../axiosBase";
 
 export const GetAlbumPhotos = (album_id) => async (dispatch) => {
   try {
-    const endpoint = "albums/" + album_id + "/photos";
+    const endpoint = "album-photos/" + album_id;
     const response = await http.get(endpoint);
     dispatch({
       type: GET_ALBUM_PHOTOS,

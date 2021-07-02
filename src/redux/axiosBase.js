@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "https://jsonplaceholder.typicode.com/";
+const url = "https://album-photos-api.herokuapp.com/api/";
 
 const http = axios.create({
   baseURL: url,
